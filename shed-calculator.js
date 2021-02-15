@@ -36,6 +36,7 @@ const ShedCalculator = {
 				<b-col
 					class="pt-3"
 					cols="5"
+sm="12"
 				>
 					<sc-shed
 						v-bind:id="id + '_shed'"
@@ -62,7 +63,7 @@ const ShedCalculator = {
 					></sc-total>
 				</b-col>
 
-				<b-col>
+				<b-col sm="12">
 					<div
 						class="pt-3 sticky-top"
 						style="max-height: 100vh; overflow: auto;"
