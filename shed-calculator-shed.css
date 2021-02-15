@@ -15,11 +15,13 @@
 }
 
 .button-like input:checked + label {
-	border-color: green;
+	border-color: #28a745 !important;
+	border-width:2px;
 }
 
 .button-like:hover input +  label {
 	border-color: #007bff;
+	border-width:1px;
 }
 
 .button-like + .button-like {
