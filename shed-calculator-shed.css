@@ -1,0 +1,27 @@
+.button-like {
+	padding: 0 !important;
+}
+
+.button-like input + label {
+	border: 1px solid #ced4da;
+	border-radius: .25rem;
+	cursor: pointer;
+	display: block;
+	padding: 1.5rem 1rem;
+}
+
+.button-like input +  label::before {
+	display: none;
+}
+
+.button-like input:checked + label {
+	border-color: #007bff;
+}
+
+.button-like:hover input +  label {
+	border-color: #6c757d;
+}
+
+.button-like + .button-like {
+	margin-top: 0.5rem;
+}

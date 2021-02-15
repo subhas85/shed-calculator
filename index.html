@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+	<!-- Load required Bootstrap and BootstrapVue CSS -->
+	<link rel="stylesheet" href="//unpkg.com/bootstrap/dist/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="//unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.min.css" />
+
+	<!-- Load polyfills to support older browsers -->
+	<script src="//polyfill.io/v3/polyfill.min.js?features=es2015%2CIntersectionObserver"
+		crossorigin="anonymous"></script>
+
+	<!-- Load Vue followed by BootstrapVue -->
+	<script src="//unpkg.com/vue@latest/dist/vue.min.js"></script>
+	<script src="//unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.min.js"></script>
+
+	<!-- Load the following for BootstrapVueIcons support -->
+	<script src="//unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue-icons.min.js"></script>
+
+	<link rel="stylesheet" href="./shed-calculator-shed.css">
+</head>
+
+<body>
+	<div class="container">
+		<h1 class="my-3">Shed Building Calculator</h1>
+		<div id="app"></div>
+	</div>
+
+	<script src="util.js"></script>
+	<script src="shed-calculator-shed.js"></script>
+	<script src="shed-calculator-options.js"></script>
+	<script src="shed-calculator-delivery.js"></script>
+	<script src="shed-calculator-total.js"></script>
+	<script src="shed-calculator-media.js"></script>
+	<script src="shed-calculator.js"></script>
+	<script>
+		new Vue({
+			components: {
+				'shed-calculator': ShedCalculator
+			},
+			template: `
+				<shed-calculator id="calculator"></shed-calculator>
+			`,
+			el: '#app'
+		});
+	</script>
+</body>
+
+</html>

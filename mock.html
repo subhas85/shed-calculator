@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+		integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+		crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<div class="container mt-3">
+		<h1 class="mb-0">Build Your Shed</h1>
+
+		<div class="row">
+			<div class="col-4">
+				<div class="mt-3">
+					<div class="form-group">
+						<label for="">Select Type</label>
+						<select class="custom-select custom-select-lg">
+							<option selected>None</option>
+							<option value="">Classic Style</option>
+							<option value="">Board and Batten</option>
+							<option value="">Lean-To</option>
+						</select>
+					</div>
+
+					<div class="form-group">
+						<label for="">Select Height</label>
+						<select class="custom-select custom-select-lg">
+							<option selected>Select...</option>
+							<option value="">Low Gable - 5 feet 5 inch ( 65" ) eaves</option>
+							<option value="">Medium Gable - 6 feet ( 72" ) eaves</option>
+							<option value="">High Gable - 7 feet ( 84" ) eaves</option>
+						</select>
+					</div>
+
+					<div class="form-group">
+						<label for="">Select Size</label>
+						<select class="custom-select custom-select-lg">
+							<option selected>Select...</option>
+						</select>
+					</div>
+
+					<div class="mt-5">
+						<div class="form-group">
+							<label for="">Gable View Overhang and Porches</label>
+							<select class="custom-select custom-select-lg">
+								<option selected>None</option>
+								<option value="">2 Foot Gable Overhang - $0</option>
+								<option value="">4 Foot Gable Porch - $0</option>
+								<option value="">6 Foot Gable Porch - $0</option>
+							</select>
+						</div>
+
+						<div class="form-group">
+							<label for="">Side View Overhang and Porches</label>
+							<select class="custom-select custom-select-lg">
+								<option selected>None</option>
+								<option value="">2 Foot Side View Overhang - $0</option>
+								<option value="">4 Foot Side View Porch - $0</option>
+								<option value="">6 Foot Side View Porch - $0</option>
+							</select>
+						</div>
+					</div>
+
+					<div class="mt-5">
+						<div class="form-group">
+							<label for="">More Options</label>
+							<select class="custom-select custom-select-lg mb-2">
+								<option selected>Add...</option>
+							</select>
+							<select class="custom-select custom-select-lg mb-2">
+								<option selected>Add...</option>
+							</select>
+							<select class="custom-select custom-select-lg mb-2">
+								<option selected>Add...</option>
+							</select>
+							<select class="custom-select custom-select-lg">
+								<option selected>Add...</option>
+							</select>
+						</div>
+
+						<!-- <fieldset class="form-group row">
+							<legend class="col-form-label col-12 float-sm-left pb-2 pt-0">More Options</legend>
+							<div class="col-12">
+								<div class="form-check">
+									<input class="form-check-input" type="checkbox" name="chk1" id="chk1" value="" checked>
+									<label class="form-check-label" for="chk1">Extra Door - $200</label>
+								</div>
+								<div class="form-check">
+									<input class="form-check-input" type="checkbox" name="chk2" id="chk2" value="" checked>
+									<label class="form-check-label" for="chk2">Extra Door - $200</label>
+								</div>
+								<div class="form-check">
+									<input class="form-check-input" type="checkbox" name="chk1" id="chk1" value="" checked>
+									<label class="form-check-label" for="chk1">Extra Door - $200</label>
+								</div>
+								<div class="form-check">
+									<input class="form-check-input" type="checkbox" name="chk2" id="chk2" value="" checked>
+									<label class="form-check-label" for="chk2">Extra Door - $200</label>
+								</div>
+								<div class="form-check">
+									<input class="form-check-input" type="checkbox" name="chk1" id="chk1" value="" checked>
+									<label class="form-check-label" for="chk1">Extra Door - $200</label>
+								</div>
+								<div class="form-check">
+									<input class="form-check-input" type="checkbox" name="chk2" id="chk2" value="" checked>
+									<label class="form-check-label" for="chk2">Extra Door - $200</label>
+								</div>
+								<div class="form-check">
+									<input class="form-check-input" type="checkbox" name="chk1" id="chk1" value="" checked>
+									<label class="form-check-label" for="chk1">Extra Door - $200</label>
+								</div>
+								<div class="form-check">
+									<input class="form-check-input" type="checkbox" name="chk2" id="chk2" value="" checked>
+									<label class="form-check-label" for="chk2">Extra Door - $200</label>
+								</div>
+							</div>
+						</fieldset>
+
+						<div class="form-group">
+							<label for="">Bench</label>
+							<select class="custom-select custom-select-lg">
+								<option selected>None</option>
+							</select>
+						</div>
+
+						<div class="form-group">
+							<label for="">Dividing Wall</label>
+							<select class="custom-select custom-select-lg">
+								<option selected>None</option>
+							</select>
+						</div> -->
+					</div>
+
+					<div class="mt-5">
+						<div class="form-group">
+							<label for="">Delivery</label>
+							<select class="custom-select custom-select-lg">
+								<option selected>None</option>
+								<option value="">Ancaster - Free</option>
+								<option value="">Beamsville - $150</option>
+								<option value="">Binbrook - Free</option>
+								<option value="">Brampton - $350</option>
+								<option value="">Breslau - Free</option>
+								<option value="">Burlington - Free</option>
+								<option value="">Caledonia - Free</option>
+								<option value="">Cambridge - Free</option>
+								<option value="">Cayuga - $50</option>
+								<option value="">Drumbo - Free</option>
+								<option value="">Dundas - Free</option>
+								<option value="">Dunnville - $200</option>
+								<option value="">Elmira - $100</option>
+								<option value="">Elora - $200</option>
+								<option value="">Etobicoke - $350</option>
+								<option value="">Fergus - $200</option>
+								<option value="">Flamboro Downs - Free</option>
+								<option value="">Flamborough - Free</option>
+								<option value="">Fonthill - $250</option>
+								<option value="">Fort Erie - $350</option>
+								<option value="">Freelton - Free</option>
+								<option value="">Georgetown - $300</option>
+								<option value="">Grimsby - $100</option>
+								<option value="">Guelph - $75</option>
+								<option value="">Hagersville - Free</option>
+								<option value="">Hamilton - Free</option>
+								<option value="">Hannon - Free</option>
+								<option value="">Kitchener - Free</option>
+								<option value="">London - $200</option>
+								<option value="">Milton - $300</option>
+								<option value="">Mississauga - $300</option>
+								<option value="">Mount Hope - Free</option>
+								<option value="">New Hamburg - $50</option>
+								<option value="">Niagara Falls - $250</option>
+								<option value="">Oakville - $100</option>
+								<option value="">Pelham - $200</option>
+								<option value="">Port Colborne - $250</option>
+								<option value="">Port Rowan - $150</option>
+								<option value="">Port Stanley - $175</option>
+								<option value="">Rock Wood - $100</option>
+								<option value="">Smithville - $200</option>
+								<option value="">St. Catherine/ Thorold - $200</option>
+								<option value="">Tilsonburg - Free</option>
+								<option value="">Toronto East (East of Allan Road) - $600</option>
+								<option value="">Toronto West (West of Allan Road) - $500</option>
+								<option value="">Turkey Point - $50</option>
+								<option value="">Vineland - $150</option>
+								<option value="">Wainfleet - $200</option>
+								<option value="">Welland - $250</option>
+							</select>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col">
+				<div class="sticky-top pt-3" style="max-height: 100vh; overflow-y: auto; overflow-x: hidden;">
+					<div class="row px-n1">
+						<div class="col px-1 mb-2">
+							<img src="https://picsum.photos/300/200" alt="" class="img-fluid"><br>
+							Description...
+						</div>
+						<div class="col px-1 mb-2">
+							<img src="https://picsum.photos/300/200" alt="" class="img-fluid"><br>
+							Description...
+						</div>
+						<div class="col px-1 mb-2">
+							<img src="https://picsum.photos/300/200" alt="" class="img-fluid"><br>
+							Description...
+						</div>
+					</div>
+
+					<div class="row px-n1">
+						<div class="col px-1 mb-2">
+							<img src="https://picsum.photos/300/200" alt="" class="img-fluid"><br>
+							Description...
+						</div>
+						<div class="col px-1 mb-2">
+							<img src="https://picsum.photos/300/200" alt="" class="img-fluid"><br>
+							Description...
+						</div>
+						<div class="col px-1 mb-2">
+							<img src="https://picsum.photos/300/200" alt="" class="img-fluid"><br>
+							Description...
+						</div>
+					</div>
+
+					<div class="row px-n1">
+						<div class="col px-1 mb-2">
+							<img src="https://picsum.photos/300/200" alt="" class="img-fluid"><br>
+							Description...
+						</div>
+						<div class="col px-1 mb-2">
+							<img src="https://picsum.photos/300/200" alt="" class="img-fluid"><br>
+							Description...
+						</div>
+						<div class="col px-1 mb-2">
+							<img src="https://picsum.photos/300/200" alt="" class="img-fluid"><br>
+							Description...
+						</div>
+					</div>
+
+					<div class="row px-n1">
+						<div class="col px-1 mb-2">
+							<img src="https://picsum.photos/300/200" alt="" class="img-fluid"><br>
+							Description...
+						</div>
+						<div class="col px-1 mb-2">
+							<img src="https://picsum.photos/300/200" alt="" class="img-fluid"><br>
+							Description...
+						</div>
+						<div class="col px-1 mb-2">
+							<img src="https://picsum.photos/300/200" alt="" class="img-fluid"><br>
+							Description...
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

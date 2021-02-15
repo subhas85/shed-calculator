@@ -1,1 +1,1 @@
-# shed-calculator
+# Shed Calculator
