@@ -36,7 +36,7 @@ const ShedCalculator = {
 				<b-col
 					class="pt-3"
 					cols="5"
-sm="12"
+xs="12"
 lg="6"
 				>
 					<sc-shed
@@ -64,7 +64,7 @@ lg="6"
 					></sc-total>
 				</b-col>
 
-				<b-col sm="12" lg="6">
+				<b-col xs="12" lg="6">
 					<div
 						class="pt-3 sticky-top"
 						style="max-height: 100vh; overflow: auto;"
