@@ -36,7 +36,7 @@ const ShedCalculator = {
 				<b-col
 					class="pt-3"
 					cols="12"
-lg="5"
+					lg="5"
 				>
 					<sc-shed
 						v-bind:id="id + '_shed'"
