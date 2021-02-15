@@ -136,7 +136,7 @@ const ShedCalculatorMedia = {
 						v-bind:src="src"
 					></b-img>
 				</b-col>
-			</b-row>
+			</b-form-row>
 		</div>
 	`
 };
